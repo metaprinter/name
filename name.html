@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Outdoorsman Name Generator | Robert Ivan</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta property="og:title" content="Outdoorsman Name Generator" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="http://robertivan.com/name.html" />
+    <meta property="og:image" content="http://robertivan.com/images/Bachalpseeflowers.jpg" />
+    <meta property="og:site_name" content="Robert Ivan" />
+    <meta property="og:description" content="Outdoorsman Name Generator, because internet." />
+    <meta name="description" content="Outdoorsman Name Generator, because internet.">
+    <meta name="author" content="Robert Ivan">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/rstyle.css">
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <script> 
+    /*   Adapted from - Online Name Generators v.1.0 script by Niels Gamborg webmaster at online-generator.com.  
+    **** There's a bit of redundancy happening below, but it was late and I was too much fun with the names, Robert Ivan
+    */  
+      function outdoor_name(){
+        var wordlist1 = ["'Big'","'Old'","'Able'","'Sound'"," "," "," "," "," "," "," "," "," "," "," "," "," "," "," "," "," "," ",
+                "'Strapping'","'Quiet'","'Keen'","'Strong'","'Reginald'","'Hammerles'","'Hard-Mouthed'","'Carolina'","'Kentucky'",
+                "'Lipless'","'Swole'","'Brother'","'Captain'","'Commander'","'Arkansas'","'Fearless'"];        
+
+        var wordlist2 = ["Reed","Wade","Cody","Canyon","Brock","Harbor","Sam","Jack",
+                "Talon","Black","Skeet","Red","Dusty","Anderson","George", "Hunter", "Sage", "Lincoln", 
+                "Walden", "Gunner", "Archer", "Colton", "Wyatt", "Birch", "Travis", "Trevor", "Billy", "Mac",
+                "Lokie", "Buckshot", "Gill", "Sewell", "Toby", "Jasper", "Shamus", "Buddy"];
+
+        var wordlist3 = ["Mc","O'","Von"," "," ", " ", " ", " ", " ", " ", " ", " ", " ", " ", " ", " ", " ", " ", " ", " ", " "];
+
+        var wordlist4 = ["Slackwater","Backwater","Masthead","Strongarm", "Armstrong", "Beartooth","Stoneballs", "Eagleclaw","Tigerpenis",
+                "Crankshaft","Bulletfist","Jacknife","Bullblock","Gutrobber", "Ironjaw", "Belton", "Fowler", "Blowdown", "Mossback", "Stroker", "Cockswidth", 
+                "Castlewood", "Harper", "Sawyer", "Thatcher", "Handaxe", "Alcock", "Ipswich"];        
+        
+        var randomNumber1 = parseInt(Math.random() * wordlist1.length);
+        var randomNumber2 = parseInt(Math.random() * wordlist2.length);
+        var randomNumber3 = parseInt(Math.random() * wordlist3.length);
+        var randomNumber4 = parseInt(Math.random() * wordlist4.length);
+        var name = wordlist1[randomNumber1] + " " + wordlist2[randomNumber2] + " " + wordlist3[randomNumber3] + " " + wordlist4[randomNumber4];     
+        
+        if(document.getElementById("result")){
+          document.getElementById("placeholder").removeChild(document.getElementById("result"));
+        }
+        var element = document.createElement("div");
+        element.setAttribute("id", "result");
+        element.appendChild(document.createTextNode(name));
+        document.getElementById("placeholder").appendChild(element);
+      }   
+    </script>
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-4087256-3', 'robertivan.com');
+      ga('send', 'pageview');
+
+    </script>
+    <style>
+      .jumbotron {
+        margin-bottom: 0px;
+        background-image: url(/images/Bachalpseeflowers.jpg);
+        background-position: 0% 25%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        color: white;
+        opacity : 0.8;
+      }
+      #generator{border:1px solid #cccccc;margin:30px 0;font-size:28px;font-weight:bold;padding:50px 0 20px;text-align:center;-moz-border-radius: 5px;-webkit-border-radius: 5px;}
+      #placeholder{margin:0 0 10px;}
+      #footer span{font-size: 10px; color: #999;}
+    </style>
+  </head>
+  <body  onload="outdoor_name()">
+    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container">
+        <h1 id="logo"><a href="/">Robert Ivan</a></h1>
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+    <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="/notes/">notes</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">projects<b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><a href="https://plus.google.com/u/0/photos/107719138670648686482/albums/6055631639245744641">Arduino Ultimate Machine</a></li>
+                <li><a href="/WorldCuphtml5.html">World Cup Visualization</a></li>
+                <li><a href="/fakeHeatMap.html">Drag and Drop Heatmap</a></li>
+                <li><a href="/notes/">Google Web Starter Kit</a></li>
+                <li><a href="/name.html">Outdoorsman Name Generator</a></li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">más<b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><a href="http://www.linkedin.com/in/metaprinter" target="_blank">LinkedIn</a></li>
+                <li><a href="https://twitter.com/metaprinter" target="_blank">Twitter</a></li>
+                <li><a href="https://github.com/metaprinter" target="_blank">GitHub</a></li>
+                <li><a href="http://metaprinter.com/" target="_blank">metaprinter</a></li>
+                <li><a href="https://roundvalleyfishing.com/" target="_blank">Round Valley</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+        <div class="jumbotron">
+                <div id="generator" >
+                  <div id="placeholder"></div> 
+                  <p><a class="btn btn-primary btn-lg" role="button" href="#" onclick="outdoor_name();return false;">Make name</a></p>
+                </div>
+      </div>"<a href="http://commons.wikimedia.org/wiki/File:Bachalpseeflowers.jpg#mediaviewer/File:Bachalpseeflowers.jpg">Bachalpseeflowers</a>" by <a href="//commons.wikimedia.org/w/index.php?title=User:ZachT&amp;action=edit&amp;redlink=1" class="new" title="User:ZachT (page does not exist)">ZachT</a> - <span class="int-own-work">Own work</span>. Licensed under Public domain via <a href="//commons.wikimedia.org/wiki/">Wikimedia Commons</a>. <span style="float:right;"><b>SHARE</b>: <a target="_blank" href="https://twitter.com/intent/tweet?text=Outdoorsman%20Name%20Generator&amp;url=http://robertivan.com/name.html&amp;via=metaprinter">TW</a> | <a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http://robertivan.com/name.html">FB</a> | <a target="_blank" href="https://plus.google.com/share?url=http://robertivan.com/name.html">G+</a></span>
+    <div class="container">
+      <div class="starter-template">
+        <h1 class="page-header">Outdoorsman Name Generator</h1>
+        <p class="lead">Are you an avid outdoorsman who was cursed by your parents with a weak name? This name generator will create a new name you can be proud share with those around you next time you're headed into the wild!</p>
+      </div>
+      <hr>
+      <footer>
+        <p>&copy; Robert Ivan 2014, <span>This generator is adapted from the <a href="http://online-generator.com">online name generators</a>.</span></p>
+      </footer>
+    </div><!-- /.container -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+  </body>
+</html>
